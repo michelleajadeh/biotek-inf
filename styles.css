@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+  }
+  header{
+    display:flex;
+    top:0;
+    width:100%;
+    background-color: #626F47;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: space-between   ;
+    position:fixed;
+    z-index:1;
+    color:white;
+    padding: 10px;
+  }
+
+  nav a{
+    padding: 10px 30px ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    float: right;
+  }
+
+  nav a:hover{
+    background-color:#A4B465;
+    color:white;
+    transition: 0.5s;
+    padding: 10px 30px;
+  }
+
+  .banner{
+    float:left;
+    padding: 10px 25px;
+    color:#ffffff;
+}
+section.home{ 
+  height: 800px;
+  background: url("kol.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;  
+  padding-top:100px; 
+  }
+
+  section.home div{
+  text-align: center; 
+  color: #231603; 
+  margin:auto; 
+  width:70%; 
+  padding: 60px; 
+  }
+
+  section.home.welcome{
+  font-size: 30px;
+  padding-top: 100px;
+  } 
+
+  section.home a{
+  color: #ffffff; 
+  padding: 10px 20px; 
+  text-decoration: none; 
+  box-shadow: 0px 0px 3px rgb(0, 0, 0); 
+  border-radius: 20px;
+  border-color: #000000; 
+  }
+
+section.about{
+  background-color: #F0BB78; 
+  height: 800px; 
+  } 
+
+section.about div{ 
+  color: white; 
+  text-align: center; 
+  margin:auto; 
+  padding: 50px; 
+  width:70%; 
+}
+
+section .about img{ 
+height: 30px; 
+padding-top:100px; 
+} 
+
+
+section.product{ 
+  background: url("buat\ bg\ di\ inf.jpg"); 
+  height: 1200px; 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  }
+  
+
+  section.product .container{
+  justify-content:center; 
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px; 
+  align-items: center;
+  max-width: 100%;
+  overflow: hidden;
+}
+  
+  section.product .container .card{
+    background-color: #fbc85a;
+    width:150px; 
+    height: 450px; 
+    box-shadow: 0 0 2px ; 
+    padding: 30px; 
+    text-align: center; 
+    flex: 0 0 calc(33.333% - 20px);
+    margin:10px; 
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+
+section.product .container .card:hover {
+  animation: goyang 0.5s;
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+@keyframes goyang {
+  0% {
+      transform: rotate(0deg);
+  }
+  25% {
+      transform: rotate(3deg);
+  }
+  50% {
+      transform: rotate(-3deg);
+  }
+  75% {
+      transform: rotate(1deg);
+  }
+  100% {
+      transform: rotate(0deg);
+  }
+}
+  
+  section.product .container .card img{
+  width:100%; 
+  border-radius: 10px;
+  object-fit: cover;
+  max-height: 200px;
+  }
+  
+  section .product .container .card a{
+  color:rgb(0, 0, 0); 
+  padding: 5px 20px; 
+  text-decoration: none; 
+  box-shadow: 0px 0px 3px;
+  border-radius: 20px; 
+  }
+
+  h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+	  color:rgb(255, 255, 255);
+    filter: drop-shadow(0px 0px 3px rgb(39, 28, 18));
+    align-items: center;
+    justify-items: center;
+    }
+
+    p{
+      font-size: 15px;
+      color:rgb(255, 255, 255);
+      font-family: Arial, Helvetica, sans-serif;
+      filter: drop-shadow(0px 0px 3px rgb(39, 28, 18));
+      align-items: center;
+      justify-items: center;
+      }
+
+      h3{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgb(255, 255, 255);
+        filter: drop-shadow(0px 0px 3px rgb(39, 28, 18));
+        align-items: center;
+        justify-items: center;
+      }
+
+.section.product .container .card:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+  box-shadow: 0px 0px 10px black;
+}
+
+.button{
+  cursor: pointer;
+  margin: 5px;
+}
+
+section.contact{ 
+background-color: #000000; 
+height: 800px;
+}
+
+section.contact .card{
+  margin: auto;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  width: 400px;
+}
+
+section.contact .card img{
+  width: 200px;
+}
+
+footer{ 
+  background-color: #626F47; 
+  height:50px; 
+}
+
+footer .medsos{
+  text-align: center; 
+  padding-top: 10px;
+  filter:drop-shadow(0px 0px 5px black);
+} 
+footer .medsos a{
+  color:white; 
+  font-size: 20px; 
+  padding: 5px 20px;
+}
+
+
