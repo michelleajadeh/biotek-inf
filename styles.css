@@ -8,7 +8,7 @@ body{
     background-color: #626F47;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    justify-content: space-between   ;
+    justify-content: space-between;
     position:fixed;
     z-index:1;
     color:white;
@@ -49,11 +49,11 @@ section.home{
   color: #231603; 
   margin:auto; 
   width:70%; 
-  padding: 60px; 
+  padding: 80px; 
   }
 
   section.home.welcome{
-  font-size: 30px;
+  font-size: 20px;
   padding-top: 100px;
   } 
 
@@ -75,15 +75,16 @@ section.about div{
   color: white; 
   text-align: center; 
   margin:auto; 
-  padding: 50px; 
+  padding-top: 50px; 
   width:70%; 
 }
 
 section .about img{ 
-height: 30px; 
-padding-top:100px; 
-} 
-
+  height: 100px; 
+  width: auto;
+  margin: 10px auto; 
+  padding: 5px; 
+}
 
 section.product{ 
   background: url("buat\ bg\ di\ inf.jpg"); 
@@ -106,13 +107,12 @@ section.product{
   
   section.product .container .card{
     background-color: #fbc85a;
-    width:150px; 
-    height: 450px; 
     box-shadow: 0 0 2px ; 
     padding: 30px; 
-    text-align: center; 
-    flex: 0 0 calc(33.333% - 20px);
-    margin:10px; 
+    text-align: center;  
+    width:250px; 
+    height: 450px; 
+    margin:60px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -164,10 +164,11 @@ section.product .container .card:hover {
     filter: drop-shadow(0px 0px 3px rgb(39, 28, 18));
     align-items: center;
     justify-items: center;
+    text-align: center;
     }
 
     p{
-      font-size: 15px;
+      font-size: 13px;
       color:rgb(255, 255, 255);
       font-family: Arial, Helvetica, sans-serif;
       filter: drop-shadow(0px 0px 3px rgb(39, 28, 18));
@@ -196,7 +197,7 @@ section.product .container .card:hover {
 }
 
 section.contact{ 
-background-color: #000000; 
+background: url("buat\ bg\ di\ contact.jpg"); 
 height: 800px;
 }
 
@@ -209,7 +210,7 @@ section.contact .card{
 }
 
 section.contact .card img{
-  width: 200px;
+  width: 400px;
 }
 
 footer{ 
